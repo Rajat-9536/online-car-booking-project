@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login page</title>
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	 <!-- <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"> -->
+	 <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	 <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+
+	 <style>
+	 body,section
+	 {
+	 	background-color: #EEE;
+	 }
+	 	  
+	 	.section-form
+	 	{
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(audi-car-car-wallpapers-2394.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin-right: 100px;
+            margin-left: 100px;
+            margin-bottom: 100px;
+	 	}
+	 	.text
+	 	{
+	 		font-size: 200%;
+	        margin-bottom: 10px;
+	        font-weight: 100;
+	        color: #e67e22;
+	        margin-bottom: 10px;
+	 	}
+	 	.text1
+	 	{
+	 		color: #e67e22;
+	 		margin-left: 220px;
+
+	 	}
+	 	.col
+	 	{
+	 		margin-right: 170px;
+	 	}
+	 	.sent-btn
+	 	{
+	 		margin-left: 55%;
+	 		margin-bottom:55px;
+	 	}
+	    .text2
+	    {
+	    	margin-left: 576px;
+	    }
+	 	
+	 
+	 </style>
+</head>
+<body>
+    <section class="section-form">
+    	<div class="row">
+     		<h2 class="text">Login</h2>
+     	</div>
+    	<div>
+    		<form>
+    		    <div class="row">
+     				<div class="col">
+     					<label for="name" class="text1">Name</label>
+     				</div>
+     				<div class="col">
+     					<input type="text" name="name" id="name" placeholder="Your name" class="blank" required>
+     				</div>
+     			</div>
+     			<div class="row">
+     				<div class="col">
+     					<label for="email" class="text1">Email</label>
+     				</div>
+     				<div class="col">
+     					<input type="Email" name="email" id="email" placeholder="Your email" class="blank" required>
+     				</div>
+     			</div>
+     			<div class="row">
+     				<div class="col">
+     					<label for="Password" class="text1">Password</label>
+     				</div>
+     				<div class="col">
+     					<input type="Password" name="Password" id="Password" placeholder="Password" class="blank1" required>
+     				</div>
+     			</div>
+     		<div class="row">
+    		<div>
+    			<a href="#" class="text2">Forget Password?</a>
+    		</div>
+    	    </div>
+    		<div class="row">
+     				<div class="col span-1-of-3">
+     					<label>&nbsp;</label>
+     				</div>
+     				<div class="col span-2-of-3">
+     					<input type="submit" class="sent-btn" value="Login">
+     				</div>
+     			</div>
+    		</form>
+    	</div>
+    </section>
+</body>
+</html>
